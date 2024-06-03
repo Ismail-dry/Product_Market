@@ -1,0 +1,86 @@
+/* Products.module.css */
+
+/* Genel ayarlar */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form kolonları için stil */
+.formColumns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.leftColumn, .rightColumn {
+  flex: 1;
+  padding: 20px;
+}
+
+.leftColumn {
+  margin-right: 20px;
+}
+
+.rightColumn {
+  margin-left: 20px;
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tablo için stil */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
+
+td {
+  background-color: #ffffff;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Kullanıcı bilgileri için stil */
+.userInfo {
+  margin-top: 20px;
+}
+
+.userInfo h3 {
+  margin-bottom: 10px;
+}
+
+.userInfo p {
+  margin: 5px 0;
+}

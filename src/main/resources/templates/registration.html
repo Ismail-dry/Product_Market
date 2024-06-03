@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+    <h2>Registration</h2>
+    <form th:action="@{/registration}" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"/>
+        </div>
+        <div>
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname"/>
+        </div>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"/>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"/>
+        </div>
+        <div>
+            <label for="creditCardNumber">Credit Card Number:</label>
+            <input type="text" id="creditCardNumber" name="creditCardNumber"/>
+        </div>
+        <div>
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="text" id="expiryDate" name="expiryDate"/>
+        </div>
+        <div>
+            <label for="securityCode">Security Code:</label>
+            <input type="text" id="securityCode" name="securityCode"/>
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+    </form>
+</body>
+</html>
